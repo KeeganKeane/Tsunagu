@@ -6,18 +6,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Welcome to Tsunagu!</h1>
+       <h2>
+          Tsunagu (繋ぐ) - to connect
+       </h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Do you have a music library full of songs exclusive to different music platforms? Tired of not being able to have them all in one place? Tsunagu connects all music platforms
+          so that you no longer have to interrupt your music listening experiene to fit the musical mood you're feeling. 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
