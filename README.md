@@ -1,3 +1,13 @@
+##What is it 
+A platform that combines multiple music platforms into one, therefore eliminating the need to switch between platforms in order to listen to songs specific to that platform.
+
+##Why 
+As a music lover I grew frustrated not being able to create different playlists because certain songs were exclusive to different music platforms. Therefore in an attempt to practice some more react.js, database management, and working with APIs
+and to simply fix this problem I have decided to create this web-app
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
