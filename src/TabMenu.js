@@ -1,32 +1,3 @@
-// import React from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-// import Soundcloud from './Soundcloud.js';
-
-/*
-Main Hompage Component 
-*/
-// function App() {
-//   return (
-//     <div className="App">
-//       <TabMenu/>
-//       <header className="App-header">
-//         <h1>Welcome to Tsunagu!</h1>
-//        <h2>
-//           Tsunagu (繋ぐ) - to connect
-//        </h2>
-//         <p>
-//           Do you have a music library full of songs exclusive to different music platforms? Tired of not being able to have them all in one place? Tsunagu connects all music platforms
-//           so that you no longer have to interrupt your music listening experiene to fit the musical mood you're feeling. 
-//         </p>
-//       </header>
-//         <Soundcloud/> 
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
@@ -35,8 +6,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import HomePage from './HomePage';
-import Soundcloud from './Soundcloud';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -90,22 +59,20 @@ export default function SimpleTabs() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="Home Page" {...a11yProps(0)} />
-          <Tab label="SoundCloud" {...a11yProps(1)} />
-          <Tab label="YouTube" {...a11yProps(2)} />
+          <Tab label="Item One" {...a11yProps(0)} />
+          <Tab label="Item Two" {...a11yProps(1)} />
+          <Tab label="Item Three" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        <HomePage/>
+        Item One
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Soundcloud/>
+        Item Two
       </TabPanel>
       <TabPanel value={value} index={2}>
-        To be implemented...
+        Item Three
       </TabPanel>
     </div>
   );
 }
-
-// export default App;
