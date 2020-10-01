@@ -5,7 +5,20 @@ A platform that combines multiple music platforms into one, therefore eliminatin
 As a music lover I grew frustrated not being able to create different playlists because certain songs were exclusive to different music platforms. Therefore in an attempt to practice some more react.js, database management, and working with APIs
 and to simply fix this problem I have decided to create this web-app
 
+## Tools Used/To be Used 
+- React.js 
+- Firebase 
+- Soundcloud API 
+- Spotify API 
+- Apple Music API 
 
+## TO DO 
+- Finish Implementing SoundCloud player 
+- Implement Youtube player 
+- Implement Spotify player 
+- Implement Apple Music player 
+- Make UI better, more user friendly and flush 
+- Use Firebase to allow for different users with playlists saved to their accounts
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
